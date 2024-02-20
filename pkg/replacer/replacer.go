@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/homeslice-ee/bumper/pkg/bumper"
+	"github.com/mikepartelow/bumper/pkg/bumper"
 )
 
 // Replacer replaces image URLs in text with their latest version.

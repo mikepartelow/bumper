@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/homeslice-ee/bumper/pkg/bumper"
-	"github.com/homeslice-ee/bumper/pkg/chooser"
-	"github.com/homeslice-ee/bumper/pkg/registry"
-	"github.com/homeslice-ee/bumper/pkg/replacer"
+	"github.com/mikepartelow/bumper/pkg/bumper"
+	"github.com/mikepartelow/bumper/pkg/chooser"
+	"github.com/mikepartelow/bumper/pkg/registry"
+	"github.com/mikepartelow/bumper/pkg/replacer"
 )
 
 func Usage(exitCode int) {
@@ -18,7 +18,7 @@ func Usage(exitCode int) {
 	fmt.Println("Considers only tags in `registry` prefixed with `.main`.")
 	fmt.Println("")
 	fmt.Println("Example:")
-	fmt.Println(" " + p + " ghcr.io/homeslice-ee/ Pulumi.prod.yaml")
+	fmt.Println(" " + p + " ghcr.io/mikepartelow/ Pulumi.prod.yaml")
 
 	os.Exit(exitCode)
 }

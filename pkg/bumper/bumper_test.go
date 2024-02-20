@@ -4,9 +4,9 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/homeslice-ee/bumper/pkg/bumper"
-	"github.com/homeslice-ee/bumper/pkg/chooser"
-	"github.com/homeslice-ee/bumper/pkg/registry"
+	"github.com/mikepartelow/bumper/pkg/bumper"
+	"github.com/mikepartelow/bumper/pkg/chooser"
+	"github.com/mikepartelow/bumper/pkg/registry"
 	"github.com/stretchr/testify/assert"
 )
 

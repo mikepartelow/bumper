@@ -5,9 +5,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/homeslice-ee/bumper/pkg/bumper"
-	"github.com/homeslice-ee/bumper/pkg/chooser"
-	"github.com/homeslice-ee/bumper/pkg/registry"
+	"github.com/mikepartelow/bumper/pkg/bumper"
+	"github.com/mikepartelow/bumper/pkg/chooser"
+	"github.com/mikepartelow/bumper/pkg/registry"
 )
 
 func Usage(exitCode int) {
@@ -17,7 +17,7 @@ func Usage(exitCode int) {
 	fmt.Println("Print the latest pinned url for `image` considering all available tags prefixed with `.main`")
 	fmt.Println("")
 	fmt.Println("Example:")
-	fmt.Println(" " + p + " ghcr.io/homeslice-ee/bumper")
+	fmt.Println(" " + p + " ghcr.io/mikepartelow/bumper")
 
 	os.Exit(exitCode)
 }

@@ -3,8 +3,8 @@ package bumper
 import (
 	"fmt"
 
-	"github.com/homeslice-ee/bumper/pkg/chooser"
-	"github.com/homeslice-ee/bumper/pkg/registry"
+	"github.com/mikepartelow/bumper/pkg/chooser"
+	"github.com/mikepartelow/bumper/pkg/registry"
 )
 
 // Bumper returns a URL for the latest version of an image.

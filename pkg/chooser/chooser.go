@@ -5,7 +5,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/homeslice-ee/bumper/pkg/registry"
+	"github.com/mikepartelow/bumper/pkg/registry"
 )
 
 // TagSelector returns true if tag should be considered when choosing.

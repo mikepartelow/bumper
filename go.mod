@@ -1,4 +1,4 @@
-module github.com/homeslice-ee/bumper
+module github.com/mikepartelow/bumper
 
 go 1.21.6
 

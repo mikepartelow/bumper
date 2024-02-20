@@ -6,8 +6,8 @@ import (
 	"path"
 	"testing"
 
-	"github.com/homeslice-ee/bumper/pkg/registry"
-	"github.com/homeslice-ee/bumper/pkg/replacer"
+	"github.com/mikepartelow/bumper/pkg/registry"
+	"github.com/mikepartelow/bumper/pkg/replacer"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
