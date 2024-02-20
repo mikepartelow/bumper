@@ -1,0 +1,5 @@
+config:
+  something: spamcr.io/eggs/spam:v1.2.2@sha256:lazyspacy1
+  something-else:
+    nice:
+      image: spamcr.io/eggs/eggs@sha256:whatever

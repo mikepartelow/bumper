@@ -1,0 +1,7 @@
+line 000
+ line 111 contains  spamcr.io/eggs/spam:latest   as well as other text
+   line   222
+line 3:spamcr.io/eggs/spam:latest as well as other text
+line 4:spamcr.io/eggs/spam:latest as well as other text spamcr.io/eggs/eggs:latest as well as other text
+line5 says leave spamcr.io/eggs spamcr.io/eggs/ and spamcr.io and also spamcr.io/ alone
+line 6 though has spamcr.io/eggs/spam which must change
