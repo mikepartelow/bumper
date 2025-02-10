@@ -49,11 +49,9 @@ func main() {
 	defer tmpFile.Close()
 
 	reg := registry.New(containerRegistry)
-	b := bumper.New(reg, chooser.New(reg, chooser.MainSelector))
+	replacer := replacer.New(containerRegistry, bumper.New(reg, chooser.New(reg, chooser.MainSelector)))
 
-	repl := replacer.New(containerRegistry, b)
-
-	err = repl.Replace(tmpFile, file)
+	err = replacer.Replace(tmpFile, file)
 	if err != nil {
 		logger.Error("couldn't bump file", "bump filename", bumpFilename, "repo", gitRepo, "err", err)
 		panic(err)

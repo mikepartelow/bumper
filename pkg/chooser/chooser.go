@@ -11,9 +11,9 @@ import (
 // TagSelector returns true if tag should be considered when choosing.
 type TagSelector func(tag string) bool
 
-// MainSelector returns true if tag starts with `.main`.
+// MainSelector returns true if tag starts with `main.`.
 func MainSelector(tag string) bool {
-	return strings.HasPrefix(tag, ".main")
+	return strings.HasPrefix(tag, "main.")
 }
 
 // Chooser chooses tags from a registry.

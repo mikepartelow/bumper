@@ -7,6 +7,7 @@
 ```bash
 % make local 
 % echo "here is an image url: ghcr.io/mikepartelow/bumper:latest" > file.txt
+% docker login ghcr.io/mikepartelow
 % ./bumper ghcr.io/mikepartelow/ file.txt
 here is an image url: ghcr.io/mikepartelow/bumper:main.v1.0.0@sha256:929ed1ece9808d842389cb4afea961a8e2422514
 ```
